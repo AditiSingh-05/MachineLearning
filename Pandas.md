@@ -70,7 +70,11 @@ pip install jupyter notebook
 import pandas as pd
 s = pd.Series([1, 3, 5, 7], name="numbers")
 print(s)
+
+
 ```
+<img width="320" height="122" alt="image" src="https://github.com/user-attachments/assets/3329169c-832b-41d0-8b10-e3037c012b81" />
+
 
 ### DataFrame
 
@@ -85,6 +89,7 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 ```
+<img width="264" height="115" alt="image" src="https://github.com/user-attachments/assets/537b7f67-299d-4212-b328-99228e3873fb" />
 
 ---
 
@@ -98,6 +103,9 @@ print(df)
   df.info()       # Data types and non-null counts
   df.describe()   # Stats for numeric columns
   ```
+  <img width="640" height="308" alt="image" src="https://github.com/user-attachments/assets/3627ffdf-d84f-4a78-988c-235b9f56414a" />
+<img width="459" height="292" alt="image" src="https://github.com/user-attachments/assets/bbf40405-4947-4d2a-8242-677711013231" />
+
 
 - **Accessing Columns & Rows:**
   ```python
